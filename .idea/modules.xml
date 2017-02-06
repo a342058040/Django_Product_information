@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Algorithm/.idea/Algorithm.iml" filepath="$PROJECT_DIR$/../Algorithm/.idea/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BBol/.idea/BBol.iml" filepath="$PROJECT_DIR$/../BBol/.idea/BBol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../new/week4/4_4/4_4code_of_video/Django_sample/.idea/Django_sample.iml" filepath="$PROJECT_DIR$/../new/week4/4_4/4_4code_of_video/Django_sample/.idea/Django_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Django_w.iml" filepath="$PROJECT_DIR$/.idea/Django_w.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Jupyter NoteBook/.idea/Jupyter NoteBook.iml" filepath="$PROJECT_DIR$/../Jupyter NoteBook/.idea/Jupyter NoteBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../blog/.idea/blog.iml" filepath="$PROJECT_DIR$/../blog/.idea/blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../dwt/.idea/dwt.iml" filepath="$PROJECT_DIR$/../../dwt/.idea/dwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../simpleform/.idea/simpleform.iml" filepath="$PROJECT_DIR$/../../simpleform/.idea/simpleform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../work_manage/.idea/work_manage.iml" filepath="$PROJECT_DIR$/../work_manage/.idea/work_manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../second/second参考/π-pi/.idea/π-pi.iml" filepath="$PROJECT_DIR$/../second/second参考/π-pi/.idea/π-pi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../优化爬虫/.idea/优化爬虫.iml" filepath="$PROJECT_DIR$/../优化爬虫/.idea/优化爬虫.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../second/second参考/值得参考/.idea/值得参考.iml" filepath="$PROJECT_DIR$/../second/second参考/值得参考/.idea/值得参考.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../前端/.idea/前端.iml" filepath="$PROJECT_DIR$/../../前端/.idea/前端.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../练习/.idea/练习.iml" filepath="$PROJECT_DIR$/../练习/.idea/练习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../脚本/.idea/脚本.iml" filepath="$PROJECT_DIR$/../脚本/.idea/脚本.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../赶集网爬虫/.idea/赶集网爬虫.iml" filepath="$PROJECT_DIR$/../../赶集网爬虫/.idea/赶集网爬虫.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../面向对象/.idea/面向对象.iml" filepath="$PROJECT_DIR$/../面向对象/.idea/面向对象.iml" />
+    </modules>
+  </component>
+</project>

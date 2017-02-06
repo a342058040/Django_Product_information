@@ -1,0 +1,78 @@
+   {% extends 'new_base.html' %}
+
+   {% block grid %}
+    <div class="ui equal width grid" style="width: 88%;margin: 5px 0px 5px 0px;">
+        <div class="row">
+            <div class="column">
+                <div class="ui red segment">
+                    <div class="ui statistic">
+                        <div class="value">
+                             总计{{ counts }}条信息
+                        </div>
+                        <div class="label">
+                            total
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui blue segment">
+                    <div class="ui statistic">
+                        <div class="value">
+                            当前是第{{ Info.number }}页
+                        </div>
+                        <div class="label">
+                            Views
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="ui segment">
+                    <div class="ui divided items">
+                    {% for i in Info %}
+                        <div class="item">
+                            <div class="content">
+                                <div class="header">
+                                    {{ i.title }}
+                                </div>
+                                <div class="description">
+                                    {% for palce in i.area %}
+                                    <div class="ui simple label">
+                                    {{ palce }}
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                <div class="extra">
+                                    {% for tag in i.cates %}
+                                    <div class="ui label">{{ tag }}</div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                <div class="ui small pagination menu">
+                    {% if Info.has_previous %}
+                    <a class="icon item" href="?page={{ Info.previous_page_number }}">
+                        <i class="left arrow icon"></i>
+                    </a>
+                    {% endif %}
+
+                    <div class="disabled item"> {{ Info.number }} of {{ Info.paginator.num_pages }} </div>
+
+                    {% if Info.has_next %}
+                    <a class="icon item" href="?page={{ Info.next_page_number }}">
+                        <i class="right arrow icon"></i>
+                    </a>
+                    {% endif %}
+            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   {% endblock %}
